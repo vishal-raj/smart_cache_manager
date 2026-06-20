@@ -1,7 +1,9 @@
-name: smart_cache_manager
-description: "Smart cache library"
+name: flutter_smart_cache_manager
+description: "Flutter Smart cache library"
 version: 0.0.1
-homepage:
+homepage: https://github.com/vishal-raj/smart_cache_manager
+repository: https://github.com/vishal-raj/smart_cache_manager
+issue_tracker: https://github.com/vishal-raj/smart_cache_manager
 
 environment:
   sdk: ^3.11.5

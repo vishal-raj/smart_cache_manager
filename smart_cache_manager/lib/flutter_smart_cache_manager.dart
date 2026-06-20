@@ -1,4 +1,4 @@
-library smart_cache_manager;
+library flutter_smart_cache_manager;
 
 export 'src/cache_manager.dart';
 export 'src/cache_entry.dart';

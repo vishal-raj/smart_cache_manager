@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:smart_cache_manager/smart_cache_manager.dart';
+import 'package:flutter_smart_cache_manager/flutter_smart_cache_manager.dart';
 
 void main() {
   runApp(const MyApp());
