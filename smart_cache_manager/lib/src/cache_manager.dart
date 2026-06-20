@@ -2,11 +2,15 @@ import 'cache_entry.dart';
 import 'cache_policy.dart';
 import 'storage/cache_storage.dart';
 
+/// Main cache manager responsible for caching logic.
 class CacheManager {
+  /// Storage backend used by cache manager.
   final CacheStorage storage;
 
+  /// Creates a cache manager.
   CacheManager(this.storage);
 
+  /// Fetches data using the specified cache policy.
   Future<T> get<T>({
     required String key,
     required Future<T> Function() fetcher,

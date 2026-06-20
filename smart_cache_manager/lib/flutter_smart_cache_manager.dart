@@ -1,3 +1,6 @@
+/// A lightweight Flutter caching library with TTL support,
+/// cache policies, and offline fallback.
+
 library flutter_smart_cache_manager;
 
 export 'src/cache_manager.dart';

@@ -1,5 +1,8 @@
 import 'cache_storage.dart';
 
+/// In-memory cache storage.
+///
+/// Data is stored in RAM and is lost when app restarts.
 class MemoryStorage implements CacheStorage {
   final Map<String, dynamic> _cache = {};
 
