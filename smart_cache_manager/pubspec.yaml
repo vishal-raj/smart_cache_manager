@@ -1,6 +1,6 @@
 name: flutter_smart_cache_manager
-description: "Flutter Smart cache library"
-version: 0.0.1
+description: "A lightweight Flutter caching library with TTL, cache policies, offline fallback, and background refresh for optimized API performance."
+version: 0.0.2
 homepage: https://github.com/vishal-raj/smart_cache_manager
 repository: https://github.com/vishal-raj/smart_cache_manager
 issue_tracker: https://github.com/vishal-raj/smart_cache_manager
@@ -12,6 +12,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+
+linter:
+  rules:
+    public_member_api_docs: true
 
 dev_dependencies:
   flutter_test:
